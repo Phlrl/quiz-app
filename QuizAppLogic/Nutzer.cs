@@ -6,6 +6,5 @@ namespace QuizAppLogic
     public class Nutzer
     {
         public Quiz? quiz {get; private set;}
-        
     }
 }

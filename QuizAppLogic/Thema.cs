@@ -2,6 +2,6 @@ namespace QuizAppLogic
 {
     public class Thema
     {
-        public List<Frage> Fragenliste {get; private set;} = new List<Frage>();  
+        public List<Frage> Fragenliste {get; private set;} = new List<Frage>();
     }
 }
