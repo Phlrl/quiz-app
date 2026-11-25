@@ -4,6 +4,12 @@ namespace QuizAppLogic
     {
         public int AnzahlDerRichtigenAntworten {get; private set;} = 0;
         public int AnzahlDerFalschenAntworten {get; private set;} = 0;
-    
+
+        public Ergebnis(int richtiganzahl, int falschanzahl)
+        {
+            AnzahlDerFalschenAntworten = richtiganzahl;
+            AnzahlDerFalschenAntworten = falschanzahl;
+        }
+
     }
 }

@@ -12,5 +12,10 @@ namespace QuizAppLogic
             Antwortliste = answerlist;
             content = inhalt;
         }
+
+        public void FrageErstellen()
+        {
+            
+        }
     }
 }
