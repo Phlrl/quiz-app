@@ -2,10 +2,10 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace QuizAppLogic
 {
-    public class Quizstarten
+    public class QuizApp
     {
         public List<Thema> Themen = new List<Thema>();
-        public Quizstarten()
+        public QuizApp()
         {
 
         }
